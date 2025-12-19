@@ -10,7 +10,7 @@ function Skills() {
     {
       title: "Backend",
       icon: "⚙️",
-      skills: ["Node.js", "Express", "MongoDB", "REST APIs"]
+      skills: ["Node.js", "Express", "MongoDB","Flask", "REST APIs"]
     },
     {
       title: "Tools",
@@ -20,7 +20,7 @@ function Skills() {
     {
       title: "DSA & Competitive",
       icon: "🧠",
-      skills: ["Data Structures", "Algorithms", "LeetCode", "Problem Solving"]
+      skills: ["C++","Data Structures", "Algorithms", "LeetCode", "Problem Solving"]
     }
   ];
 
@@ -139,3 +139,4 @@ function Skills() {
 }
 
 export default Skills;
+
