@@ -1,0 +1,197 @@
+/* :root {
+  --bg-color: #030303;
+  --text-color: #d4cbcb;
+  --accent-color: #4e9af1;
+  --nav-bg: #181818;
+  --nav-hover: #333;
+  --border-radius: 8px;
+}
+
+body {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: var(--text-color);
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  transition: background 0.5s;
+}
+
+.navbar {
+  background: rgba(30, 30, 30, 0.7);
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  border-radius: 0 0 24px 24px;
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  animation: fadeInDown 1s;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-40px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar button {
+  background: rgba(255,255,255,0.08);
+  border: none;
+  color: var(--accent-color);
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(78,154,241,0.08);
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+  outline: none;
+}
+
+.navbar button:hover, .navbar button:focus {
+  background: var(--accent-color);
+  color: #fff;
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px rgba(78,154,241,0.18);
+}
+
+.navbar button.active {
+  background: var(--accent-color);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(78,154,241,0.28);
+  transform: scale(1.12);
+  border: 2px solid #fff;
+  outline: none;
+}
+
+main {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: rgba(255,255,255,0.10);
+  border-radius: 32px;
+  box-shadow: 0 8px 32px rgba(78,154,241,0.18);
+  backdrop-filter: blur(16px);
+  animation: fadeInUp 1.2s;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.5rem 0;
+  animation: fadeIn 0.8s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
+
+section h2 {
+  color: var(--accent-color);
+  margin-top: 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(78,154,241,0.18);
+  letter-spacing: 2px;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+  text-align: center;
+  max-width: 600px;
+  background: rgba(30,30,30,0.18);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(78,154,241,0.08);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #232526;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 8px;
+}
+
+/* Projects Section Styles */
+/* .projects-fullpage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: rgba(30,30,30,0.18);
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(78,154,241,0.12);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.project-card:hover, .project-card:focus {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(78,154,241,0.22);
+  background: rgba(78,154,241,0.08);
+}
+
+.project-image {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(78,154,241,0.12);
+}
+
+.project-content h3 {
+  color: var(--accent-color);
+  font-size: 1.3rem;
+  margin: 0.5rem 0 0.2rem 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.project-content p {
+  color: #e0e0e0;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.2rem 0 0 0;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+} */ 
